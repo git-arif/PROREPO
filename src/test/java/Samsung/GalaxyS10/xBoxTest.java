@@ -16,6 +16,7 @@ public class xBoxTest {
 		wd = new ChromeDriver();
 		wd.get("https://www.microsoft.com/en-in");
 		wd.findElement(By.cssSelector("a#shellmenu_3")).click();
+		System.out.println("This changes are for develop branches only");
 		Thread.sleep(3000);
 		
 	}
