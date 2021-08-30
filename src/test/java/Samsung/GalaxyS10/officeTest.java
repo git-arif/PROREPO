@@ -18,6 +18,7 @@ public class officeTest {
 		wd.get("https://www.microsoft.com/en-in");
 		wd.findElement(By.cssSelector("a#shellmenu_1")).click();
 		Thread.sleep(3000);
+		System.out.println("This is created from Durgapur");
 		
 	}
 	
